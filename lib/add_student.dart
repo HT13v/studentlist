@@ -68,16 +68,16 @@ class _AddStudentScreenState extends State<AddStudentScreen> {
               ),
               SizedBox(height: 20),
               SizedBox(
-                width: 200, // Set the desired width
-                height: 60,  // Set the desired height
+                width: 200, 
+                height: 60,  
                 child: ElevatedButton(
                   onPressed: _saveStudent,
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.blue, // Button background color
+                    backgroundColor: Colors.blue, 
                   ),
                   child: Text(
                     'Save',
-                    style: TextStyle(fontSize: 18), // Increase font size
+                    style: TextStyle(fontSize: 18), 
                   ),
                 ),
               ),
